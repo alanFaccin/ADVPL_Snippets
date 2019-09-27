@@ -17,7 +17,7 @@
 		"body": [
 			"RetSqlCond(${cAlias})"
 		],
-		"description": "Retorna uma string com as condic?o?es padro?es de uso em uma query. RetSqlCond(<cAlias>)"
+		"description": "Retorna uma string com as condições padrões de uso em uma query. RetSqlCond(<cAlias>)"
 	},
 	"GetNextAlias": {
 		"prefix": "GetNextAlias",
