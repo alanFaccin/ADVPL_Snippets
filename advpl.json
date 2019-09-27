@@ -12,6 +12,34 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"RetSqlCond": {
+		"prefix": "RetSqlCond",
+		"body": [
+			"RetSqlCond(${cAlias})"
+		],
+		"description": "Retorna uma string com as condic?o?es padro?es de uso em uma query. RetSqlCond(<cAlias>)"
+	},
+	"GetNextAlias": {
+		"prefix": "GetNextAlias",
+		"body": [
+			"GetNextAlias()"
+		],
+		"description": "Retorna um alias para ser utilizado no record set. GetNextAlias()"
+	},
+	"RetSqlName": {
+		"prefix": "RetSqlName",
+		"body": [
+			"RetSqlName(${cAlias})"
+		],
+		"description": "Retorna o nome físico da tabela. RetSqlName(<cAlias>)"
+	},
+	"XFilial": {
+		"prefix": "XFilial",
+		"body": [
+			"XFilial(${cAlias},${1:/*cFil*/})"
+		],
+		"description": "Retorna a filial utilizada por um determinado arquivo e na qual o usuário se logou no sistema. XFilial(<cAlias>,[cFil])"
+	},
 	"MSParse": {
 		"prefix": "MSParse",
 		"body": [
