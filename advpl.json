@@ -12,6 +12,13 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"MsgAlert": {
+		"prefix": "MsgAlert",
+		"body": [
+			"MsgAlert(${cTexto},${cTitulo})"
+		],
+		"description": "Mostra uma mensagem de alerta na tela. MsgAlert(<cTexto>,<cTitulo>)"
+	},
 	"RetSqlCond": {
 		"prefix": "RetSqlCond",
 		"body": [
