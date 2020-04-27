@@ -1,0 +1,18 @@
+
+# TDS #
+#######
+.project
+*.project
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+*.DS_Store
+.swo
+.swp
+console_error.log
+
+
+#VS Code#
+.vscode
