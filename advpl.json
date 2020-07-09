@@ -12,6 +12,13 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"FWPreparedStatement": {
+		"prefix": "PreparedStatement",
+		"body": [
+			"FWPreparedStatement():New(${1:/*cQuery*/})"
+		],
+		"description": "Construtor de objeto que representa um comando SQL precompilado. Esse objeto pode ser usado para executar eficientemente um comando SQL inúmeras vezes."
+	},
 	"MsgAlert": {
 		"prefix": "MsgAlert",
 		"body": [
